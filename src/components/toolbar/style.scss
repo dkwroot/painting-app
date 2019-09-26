@@ -1,0 +1,68 @@
+#toolbar__container{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+  display: grid;
+  grid-template-columns: repeat(10, 40px) auto;
+
+  #undo {
+    background-image: url("https://i.ibb.co/7rcqW4B/undo.png");
+    background-size: contain;
+  }
+
+  #redo{
+    background-image: url("https://i.ibb.co/vhycNZY/redo.png");
+    background-size: contain;
+  }
+
+  #brush {
+    background-image: url("https://i.ibb.co/c8RN5QW/brush.png");
+    background-size: contain;
+  }
+
+  #eraser {
+    background-image: url("https://i.ibb.co/fd73cqw/eraser.png");
+    background-size: contain;
+  }
+
+  #open {
+    background-image: url("https://i.ibb.co/SyscH0v/open.png");
+    background-size: contain;
+  }
+
+  #save {
+    background-image: url("https://i.ibb.co/3Rj7PSK/save.png");
+    background-size: contain;
+  }
+
+  #line {
+    background-image: url("https://i.ibb.co/m9XjzgF/line.png");
+    background-size: contain;
+  }
+
+  #rectangle{
+    background-image: url("https://i.ibb.co/R25Kj3b/rectangle.png");
+    background-size: contain;
+  }
+
+  #circle {
+    background-image: url("https://i.ibb.co/8dN0q4J/circle.png");
+    background-size: contain;
+  }
+
+  #polygon {
+    background-image: url("https://i.ibb.co/y89Z35c/polygon.png");
+    background-size: contain;
+  }
+
+  .unselected:hover {
+    outline-offset: -1px;
+    outline: 2px solid rgb(119, 118, 118);
+  }
+
+  .selected {
+    box-shadow: 0 5px 0 rgb(40,220,200);
+  }
+}
+
+

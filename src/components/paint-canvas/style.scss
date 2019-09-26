@@ -1,0 +1,36 @@
+#paint-canvas__container{
+  height: 100%;
+  width: 100%;
+  background: rgb(90, 90, 90);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  justify-items: center;
+  align-items: center;
+
+  .viewport {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .canvas {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .canvas--hidden {
+    visibility: hidden;
+  }
+
+  .background {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 600px;
+    width: 600px;
+    background: white;
+  }
+}

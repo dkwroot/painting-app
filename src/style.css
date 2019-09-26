@@ -1,0 +1,50 @@
+body {
+  background: rgb(20, 20, 20);
+}
+
+.wrapper-main {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 0px auto 233px;
+  grid-template-rows: 40px auto;
+  grid-gap: 5px;
+}
+
+.wrapper-main__model-menu {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-main__draw-menu {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-main__model-area {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-main__draw-area {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-main__options-area {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  height: 100%;
+  width: 100%;
+}
